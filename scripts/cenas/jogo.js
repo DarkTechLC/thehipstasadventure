@@ -24,6 +24,9 @@ class Jogo {
       ArrowUp: () => {
         personagem.pula();
       },
+      ' ': () => {
+        personagem.pula();
+      },
     }
 
     if (key in keysCommands) keysCommands[key]();
